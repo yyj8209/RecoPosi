@@ -1,5 +1,7 @@
 function [E,w1,b1,w2,b2] = BPTrain(LOOPNUM,TRAINSAMPLE,inputn,w1,b1,w2,b2,output_train,THETA)
 % 网络训练
+% 后续将用NN Toolbox取代
+
 E   = zeros(1,LOOPNUM);
 for loopi=1:LOOPNUM
     for i = 1:TRAINSAMPLE
